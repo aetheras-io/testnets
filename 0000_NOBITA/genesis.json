@@ -1,0 +1,322 @@
+{
+    "genesis_time": "2019-07-04T08:18:37.848973Z",
+    "chain_id": "0000_NOBITA",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "-1",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age": "100000"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        }
+    },
+    "app_hash": "",
+    "app_state": {
+        "accounts": [
+            {
+                "address": "agora13e8zp8wnt0rzru833ux2pnpdtr856vv2yw6kr6",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "50000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "0",
+                "name": "",
+                "avatar": "",
+                "assets": null
+            },
+            {
+                "address": "agora1mqdez5qxyrp0ezgst78sera99mc79nmls7ynql",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "50000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "1",
+                "name": "",
+                "avatar": "",
+                "assets": null
+            },
+            {
+                "address": "agora1930w44qj9zkxglq05h2hrjru8cp73v9rqyyvwf",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "50000000"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "2",
+                "name": "",
+                "avatar": "",
+                "assets": null
+            },
+            {
+                "address": "agora13xyzjpd724wxkjzty28zup0pqrsvkxjmldxd2m",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "99999999999999999"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "3",
+                "name": "test_account0",
+                "avatar": "",
+                "assets": null
+            },
+            {
+                "address": "agora1aktwevq0vfavke647fjk8jmgeke0p8pm2drfan",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "99999999999999999"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "4",
+                "name": "test_account1",
+                "avatar": "",
+                "assets": null
+            },
+            {
+                "address": "agora130xtgny9anql62wqxv97xda944xdmzt67ujl38",
+                "coins": [
+                    {
+                        "denom": "mana",
+                        "amount": "99999999999999999"
+                    }
+                ],
+                "sequence_number": "0",
+                "account_number": "5",
+                "name": "test_account2",
+                "avatar": "",
+                "assets": null
+            }
+        ],
+        "forges": null,
+        "staking": {
+            "pool": {
+                "not_bonded_tokens": "9000000000",
+                "bonded_tokens": "0"
+            },
+            "params": {
+                "unbonding_time": "259200000000000",
+                "max_validators": 100,
+                "max_entries": 7,
+                "bond_denom": "mana"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": null,
+            "validators": null,
+            "delegations": null,
+            "unbonding_delegations": null,
+            "redelegations": null,
+            "exported": false
+        },
+        "mint": {
+            "minter": {
+                "inflation": "0.130000000000000000",
+                "annual_provisions": "0.000000000000000000"
+            },
+            "params": {
+                "mint_denom": "mana",
+                "inflation_rate_change": "0.130000000000000000",
+                "inflation_max": "0.200000000000000000",
+                "inflation_min": "0.070000000000000000",
+                "goal_bonded": "0.670000000000000000",
+                "blocks_per_year": "6311520"
+            }
+        },
+        "distr": {
+            "fee_pool": {
+                "community_pool": []
+            },
+            "community_tax": "0.020000000000000000",
+            "base_proposer_reward": "0.010000000000000000",
+            "bonus_proposer_reward": "0.040000000000000000",
+            "withdraw_addr_enabled": true,
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "slashing": {
+            "params": {
+                "max_evidence_age": "120000000000",
+                "signed_blocks_window": "100",
+                "min_signed_per_window": "0.500000000000000000",
+                "downtime_jail_duration": "600000000000",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.010000000000000000"
+            },
+            "signing_infos": {},
+            "missed_blocks": {}
+        },
+        "assets": null,
+        "gentxs": [
+            {
+                "type": "auth/StdTx",
+                "value": {
+                    "msg": [
+                        {
+                            "type": "cosmos-sdk/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "aetheras0",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "0.100000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "agora13e8zp8wnt0rzru833ux2pnpdtr856vv2yw6kr6",
+                                "validator_address": "agoraval13e8zp8wnt0rzru833ux2pnpdtr856vv2lpmr0l",
+                                "pubkey": "agoravalconspub1zcjduepqhzpfelhcl4nkdgjm5kqpggnhg3qxtjcegfzna9x4mt730dfg3nmssg0v69",
+                                "value": {
+                                    "denom": "mana",
+                                    "amount": "10000000"
+                                }
+                            }
+                        }
+                    ],
+                    "fee": {
+                        "amount": null,
+                        "gas": "0"
+                    },
+                    "signatures": [
+                        {
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "Aknv2j1KViQCGl0tTrMh7GFnn3DdEghttHnglRGeXAP1"
+                            },
+                            "signature": "tGvj/17BIpsE8SUwzC92Mhg9XWn9xOIAnsN2WfbqCtEDCjyDnBdk1AMVlKyzAKWrX0h65pOswsDY4xaWltEJgQ=="
+                        }
+                    ],
+                    "memo": "0f4f50d4763038169609121f4f6f91b774fcaf97@10.140.0.100:26656"
+                }
+            },
+            {
+                "type": "auth/StdTx",
+                "value": {
+                    "msg": [
+                        {
+                            "type": "cosmos-sdk/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "aetheras1",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "0.100000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "agora1mqdez5qxyrp0ezgst78sera99mc79nmls7ynql",
+                                "validator_address": "agoraval1mqdez5qxyrp0ezgst78sera99mc79nmlt39xv6",
+                                "pubkey": "agoravalconspub1zcjduepq7cmsz33qthg8my9774f8x9h9zy5nktu6k8xdqh5adyalacs4l7qsd5l3w5",
+                                "value": {
+                                    "denom": "mana",
+                                    "amount": "20000000"
+                                }
+                            }
+                        }
+                    ],
+                    "fee": {
+                        "amount": null,
+                        "gas": "0"
+                    },
+                    "signatures": [
+                        {
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "Aw+Rbo28CQrR+eCCKCYLEd2q6B4FdyYew4tEhUs/7WIS"
+                            },
+                            "signature": "HIasn11CK1xou59o2Ofkuq5N0nbgfRGICgrLABj1z54e++LlU/KnmIX+fC9LN//AkXeOMZlTRDSX9Lq0KoFScA=="
+                        }
+                    ],
+                    "memo": "25f02523f1ff5515493f4576e4d984b39ad6edbf@10.140.0.101:26656"
+                }
+            },
+            {
+                "type": "auth/StdTx",
+                "value": {
+                    "msg": [
+                        {
+                            "type": "cosmos-sdk/MsgCreateValidator",
+                            "value": {
+                                "description": {
+                                    "moniker": "aetheras2",
+                                    "identity": "",
+                                    "website": "",
+                                    "details": ""
+                                },
+                                "commission": {
+                                    "rate": "0.100000000000000000",
+                                    "max_rate": "1.000000000000000000",
+                                    "max_change_rate": "0.100000000000000000"
+                                },
+                                "min_self_delegation": "1",
+                                "delegator_address": "agora1930w44qj9zkxglq05h2hrjru8cp73v9rqyyvwf",
+                                "validator_address": "agoraval1930w44qj9zkxglq05h2hrjru8cp73v9rmt9ezv",
+                                "pubkey": "agoravalconspub1zcjduepqfhrzj7rz2p3h0zuu4ukp5g4v7600qrjw2wy6z0gm9xkcac7eennqzmazd8",
+                                "value": {
+                                    "denom": "mana",
+                                    "amount": "30000000"
+                                }
+                            }
+                        }
+                    ],
+                    "fee": {
+                        "amount": null,
+                        "gas": "0"
+                    },
+                    "signatures": [
+                        {
+                            "pub_key": {
+                                "type": "tendermint/PubKeySecp256k1",
+                                "value": "A8zbFqOErY+hpi0jr7G3IYOxDc0wRGMyB1HEjNdHnpo1"
+                            },
+                            "signature": "GKX+4wO1TmiuZiAY5qsWZz0nZ0rMLJHWrCCpLboWVNI3qGqGUVXRbqLDhKQNClpwYQGmV0WSg8o+UR5KfhiCrA=="
+                        }
+                    ],
+                    "memo": "3fb01690f432c10c62694b9fd1662f2c7e08b24f@10.140.0.102:26656"
+                }
+            }
+        ],
+        "auth": {
+            "collected_fees": [],
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            }
+        },
+        "bank": {
+            "send_enabled": true
+        }
+    }
+}
